@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
+import VueLocalStorage from 'vue-ls'
 
 Vue.use(Buefy)
+Vue.use(VueLocalStorage)
 
 Vue.config.productionTip = false
 
